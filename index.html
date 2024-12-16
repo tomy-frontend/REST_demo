@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>GETとPOSTリクエスト</h1>
+    <h2>GET</h2>
+    <form action="http://localhost:3000/tacos" method="get">
+      <input type="text" name="meat" placeholder="meat" />
+      <input type="number" name="qty" placeholder="個数" />
+      <button>Submit</button>
+    </form>
+
+    <hr />
+
+    <h2>POST</h2>
+    <form action="http://localhost:3000/tacos" method="post">
+      <input type="text" name="meat" placeholder="meat" />
+      <input type="number" name="qty" placeholder="個数" />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

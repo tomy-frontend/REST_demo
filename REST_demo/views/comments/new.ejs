@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>新規コメント作成</title>
+  </head>
+  <body>
+    <h1>新規コメント作成</h1>
+    <form action="/comments" method="post">
+      <section>
+        <label for="username">ユーザー名</label>
+        <input
+          id="username"
+          type="text"
+          name="username"
+          placeholder="ユーザー名を入力"
+        />
+      </section>
+
+      <br />
+
+      <section>
+        <label for="comment">コメント</label>
+        <textarea
+          name="comment"
+          id="comment"
+          placeholder="コメント入力"
+        ></textarea>
+      </section>
+      <br />
+      <button>投稿</button>
+    </form>
+    <a href="/comments">コメント一覧</a>
+  </body>
+</html>
